@@ -3,7 +3,7 @@
     "pride": {
       "command": "node",
       "args": [
-        "/Users/tswetnam/github/pride-mcp-server/dist/index.js"
+        "/absolute/path/to/pride-mcp-server/dist/index.js"
       ],
       "env": {
         "PRIDE_API_TIMEOUT": "30000",

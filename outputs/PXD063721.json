@@ -1,0 +1,26 @@
+{
+  "accession": "PXD063721",
+  "title": "Mechanistic Divergence Between SOS Response Activation and Antibiotic-Induced Plasmid Conjugation in E. coli",
+  "projectDescription": "Plasmids, frequently carried by environmental and pathogenic bacteria, play a critical role in rapid dissemination of antibiotic resistance through conjugation. The use of antibiotics further induces this conjugative transmission between bacteria and thereby plays a role in the rise of antibiotic resistance. This highlights the need for a fundamental understanding of the regulation of transmission, to limit the problem. In addition, antibiotics induce the bacterial SOS response, however, whether using SOS as target can reduce conjugation, has been unclear. In this research, we used SOS-inducing compounds, SOS-mutants, conjugation and proteomics, and showed that antibiotic induced conjugation and induction of the SOS response happens through different mechanisms. This provides a new insight, which affects future strategies to control the spread of antibiotics.",
+  "sampleProcessingProtocol": "The WT and SOS grown in LB without or with antibiotics (0.004 μg/mL CIP or 128 μg/mL CTX) to mid-exponential phase. Bacterial pellets were resuspended in 150 µL lysis buffer (7 M urea/thiourea mix (7:2 proportions), 20 mM dithiothreitol (DTT), and 2 % sodium deoxycholate (SDC) in 40 mM HEPES buffer. Cells were disrupted through 5 cycles of sonication, each lasting for 10 sec with 100% amplitude, with 25-second internals of cooling in an ice/ethanol bath between cycles. Subsequently, the samples were shaken at 1000 rpm for 1 hour at room temperature, followed by centrifugation at 20000 × g for 10 min at RT, after which the supernatants were collected. 50 µg of protein from each sample was alkylated with 45 mM iodoacetamide (IAA) for 40 min at room temperature in the dark. The pH of each sample was adjusted to 8.5 using 1 M triethylammonium bicarbonate, followed by protein digestion with 0.002 AU of lysC for 2 h at 37°C and 1 µg of trypsin for 4h at 37°C. Afterwards, samples were labeled with one of the TMTpro 18-plex isobaric tags for 1.5 h, after which the reaction was quenched by hydroxylamine. Labeled peptides were mixed 1:1 (reporter ion total signal) and the mix was reverse phase purified using an Oasis HLB cartridge.",
+  "dataProcessingProtocol": "Protein identification and quantification was performed using ProteomeDiscoverer (PD), version 2.5. The search was performed against database comprising E.coli strain K-12 substr. MG1655 with pTF2 (GenBank: NC_000913.3, NC_032100.1, retrieved from Uniprot) using Mascot search engine. Search parameters were: enzyme trypsin/P, 2 missed cleavages, 5 ppm mass tolerance for MS and 0.03 Da for MS2, variable modifications: TMTpro (K), TMTpro (N-terminus), Carbamidomethyl (C) and Oxidation (M). Peptides were quantified allowing for isolation interference at maximum 30% and proteins were normalized based on total peptide amount.",
+  "projectTags": ["Biological"],
+  "keywords": ["E. coli", "antibiotic resistance", "SOS response", "plasmid conjugation", "proteomics"],
+  "doi": "10.6019/PXD063721",
+  "submissionType": "COMPLETE",
+  "submissionDate": "2025-05-07T00:00:00Z",
+  "publicationDate": "2025-05-08T00:00:00Z",
+  "submitters": [
+    {
+      "name": "Arkadiusz Nawrocki"
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "562",
+      "name": "Escherichia coli"
+    }
+  ]
+}

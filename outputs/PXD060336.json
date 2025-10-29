@@ -1,0 +1,25 @@
+{
+  "accession": "PXD060336",
+  "title": "Structural characterization of an extracellular contractile injection system from Photorhabdus luminescens in extended and contracted states",
+  "projectDescription": "Contractile injection systems (CISs) are phage tail-like nanosyringes that mediate bacterial interactions by puncturing target cell membranes. Within these systems, Photorhabdus Virulence Cassettes (PVCs) can translocate toxins across eukaryotic target cell membranes and have been engineered to deliver diverse protein cargoes into non-natively-targeted organisms. Despite the structural insights into several CISs, including one PVC from P. asymbiotica, information on PVCs from other species and details on the contraction mechanism remain limited. Here, we present the single-particle cryo-electron microscopy structure of PlPVC1, a PVC from the nematode symbiont and insect pathogen Photorhabdus luminescens DJC, in both extended and contracted states. This particle displays distinct structural features that differ from other CISs, such as a cage surrounding the central spike, a larger sheath adaptor, and a plug exposed to the tube lumen. Moreover, we present the structures of the PlPVC1 fiber and the baseplate of the contracted particle, yielding insight into the contraction mechanism. This study provides structural details of the extended and contracted states of the PlPVC1 particle and supports the model in which contraction is triggered. Furthermore, it facilitates the comparison of PlPVC1 with other CISs and expands the scope of engineering opportunities for future biomedical and biotechnological applications.",
+  "sampleProcessingProtocol": "The PVC operon was cloned in the expression vector pBAD33 (arabinose-inducible promoter, chloramphenicol resistance). Sequence-verified plasmid was transformed in E.coli BL21Star(DE3) cells. After selection, cells were grown in 1 L of LB medium supplemented with chloramphenicol, and protein expression was induced with 0.2% L-Arabinose at 0.7 OD600. 24 hours after induction, cells were harvested and lysed in 25 mL of lysis buffer (25 mM Tris pH 7.4, 140 mM NaCl, 3 mM KCl, 5 mM MgCl2, 0.5% Triton X-100, 200 μg/mL lysozyme, 50 μg/mL DNase I, 1 × protease inhibitor). After cell lysate clearance, PVC particles were pelleted by ultracentrifugation at 100,000xg for 1 hour at 4°C. The PVC pellet was resuspended in 2 mL of Tris-salt buffer (20 mM Tris pH 7.5, 150 mM NaCl). 100 µL of room-temperature (23 °C) 50 mM ammonium bicarbonate was added to 20 µg of purified PlPVC1 sample. Following this, 0.5 µg of sequencing-grade trypsin was added, and the sample was incubated overnight at 25 °C with gentle mixing. The digest was reduced and alkylated by concomitant addition of tris(2-carboxyethyl)phosphine and chloroacetamide to final concentrations of 10 mM, and incubating at 30 °C for 30 min.",
+  "dataProcessingProtocol": "All RAW files were analyzed using MaxQuant software (v1.5.3.30). Default MaxQuant settings were used. For generation of the theoretical spectral library, all expected full-length PVC protein sequences were entered into a FASTA database. Digestion was performed using 'Trypsin/P' (default), allowing up to 3 missed cleavages. Minimum peptide length was set to 6, and maximum peptide mass to 6,000 Da. Carbamidomethylation of cysteine residues was set as a fixed modification (default). Protein N-terminal acetylation (default), oxidation of methionine (default), deamidation of asparagine and glutamine, and peptide N-terminal glutamine to pyroglutamate, were included as potential variable modifications, with a maximum allowance of 3 variable modifications per peptide. Modified peptides were stringently filtered by setting a minimum score of 100 and a minimum delta score of 50. First search mass tolerance was set to 10 ppm, and maximum charge state of considered precursors to 6. Final search mass tolerance was 4.5 ppm (default), with a fragment mass tolerance of 20 ppm (default). Label-free quantification (LFQ) was enabled, with 'Fast LFQ' disabled. Data was filtered by posterior error probability to achieve a false discovery rate of <1% (default), at the peptide-spectrum match, protein assignment, and site-decoy levels.",
+  "projectTags": ["Biological"],
+  "keywords": ["Photorhabdus luminescens", "contractile injection system", "E. coli", "cryo-EM", "structural biology"],
+  "submissionType": "COMPLETE",
+  "submissionDate": "2025-01-29T00:00:00Z",
+  "publicationDate": "2025-10-22T00:00:00Z",
+  "submitters": [
+    {
+      "name": "Ivo Hendriks"
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "29488",
+      "name": "Photorhabdus luminescens"
+    }
+  ]
+}

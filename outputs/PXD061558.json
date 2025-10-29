@@ -1,0 +1,25 @@
+{
+  "accession": "PXD061558",
+  "title": "Discovery and Characterization of a Novel Carbohydrate-Active Enzyme from the Anaerobic Fungus Piromyces finnis",
+  "projectDescription": "Dwelling in the gut of herbivores, anaerobic gut fungi (AGF) have evolved several strategies to efficiently degrade unpretreated biomass. Their genomes encode a diverse array of carbohydrate-active enzymes (CAZymes), yet exceedingly few of these enzymes have been validated. Here, we developed a predictive bioinformatic pipeline to both annotate novel putative CAZymes and validate their activity through heterologous expression. 173 fungal proteins from Piromyces finnis associated with biomass degradation were synthesized and expressed in E. coli, and 9.8% were soluble with expression levels exceeding 5% of total proteome. Among the 17 heterologously expressed proteins, a combination of sequence and structure-based homology annotation identified many multifunctional proteins having catalytic domains, such as glycoside hydrolase (GH) and carbohydrate esterase (CE), fused with repetitive dockerins. Screening across three cellulose and hemicellulose substates experimentally verified six predicted functions. One promising enzyme, celsome_012, exhibited robust and optimized activity against beechwood xylan at 37°C and pH 6.4, producing five-times more products than other recombinant proteins screened here. Overall, this study represents the first large-scale screening campaign of putative AGF CAZymes, highlighting proteins amenable to E. coli overexpression, integrating advanced sequence and structural annotation, and identifying a robust, novel fungal xylanase for detailed biochemical characterization.",
+  "sampleProcessingProtocol": "Protein was extracted from cell pellets and tryptic peptides were prepared by following established proteomic sample preparation protocol. Briefly, cell pellets were resuspended in Qiagen P2 Lysis Buffer for cell lysis. Proteins were precipitated with addition of 1 mM NaCl and 4 x volume acetone, followed by washing the protein precipitant with two additional washes of 80% acetone in water. The recovered protein pellet was homogenized by pipetting mixing with 100 mM ammonium bicarbonate in 20% methanol. Protein concentration was determined by the DC protein assay (BioRad Inc, Hercules, CA). Protein reduction was accomplished using 5 mM tris 2-(carboxyethyl)phosphine (TCEP) for 30 minutes at room temperature, and alkylation was performed with 10 mM iodoacetamide (IAM; final concentration) for 30 minutes at room temperature in the dark. Overnight digestion with trypsin was accomplished with a 1:50 trypsin:total protein ratio.",
+  "dataProcessingProtocol": "DIA raw data files were analyzed by an integrated software suite DIA-NN. The database used in the DIA-NN search (library-free mode) was the latest Uniprot E.coli proteome FASTA sequence plus the protein sequences of heterogeneous pathway genes and common proteomic contaminants. DIA-NN determines mass tolerances automatically based on first pass analysis of the samples with automated determination of optimal mass accuracies. The retention time extraction window was determined individually for all MS runs analyzed via the automated optimization procedure implemented in DIA-NN. Protein inference was enabled, and the quantification strategy was set to Robust LC = High Accuracy. Output main DIA-NN reports were filtered with a global FDR = 0.01 on both the precursor level and protein group level. A jupyter notebook written in Python executed label-free quantification (LFQ) data analysis on the DIA-NN peptide quantification report.",
+  "projectTags": ["Biological"],
+  "keywords": ["Piromyces finnis", "E. coli", "carbohydrate-active enzyme", "CAZyme", "heterologous expression"],
+  "submissionType": "COMPLETE",
+  "submissionDate": "2025-03-07T00:00:00Z",
+  "publicationDate": "2025-07-31T00:00:00Z",
+  "submitters": [
+    {
+      "name": "Christopher Petzold"
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "562",
+      "name": "Escherichia coli"
+    }
+  ]
+}

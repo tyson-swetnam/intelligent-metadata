@@ -1,0 +1,31 @@
+{
+  "accession": "PXD062206",
+  "title": "Extensive PFAS accumulation by human gut bacteria",
+  "projectDescription": "Per- and polyfluoroalkyl Substances (PFAS) – the so-called 'forever chemicals' – are a major cause of environmental and health concern due to their toxicity and long-term persistence. Yet, no efficient mechanisms for their removal have been identified. Here we report bioaccumulation of PFAS by several gut bacterial species over a wide range of concentrations from nanomolar up to 500 μM. For bioaccumulating Bacteroides uniformis, a highly prevalent species, we estimate intracellular PFAS concentration in the mM range – above that of most native metabolites. Despite this high bioaccumulation, B. uniformis cells could grow appreciably up to 250 μM perfluorononanoic acid (PFNA) exposure. Escherichia coli, which accumulated PFAS to a much lesser extent, substantially increased PFAS bioaccumulation when lacking TolC efflux pump indicating trans-membrane transport in PFAS bioaccumulation. Electron microscopy and cryogenic Focused Ion Beam-Secondary Ion Massspectrometry revealed distinct morphological changes and intracellular localisation of PFNA aggregates. Bioaccumulation of PFAS and transmembrane transport is also evident in proteomics, metabolomics, thermal proteome profiling, and mutations following adaptive laboratory evolution. In an in vivo context, mice colonized with human gut bacteria showed, compared to germ-free controls or those colonized with low-bioaccumulating bacteria, higher PFNA levels in excreted feces. As the gut microbiota is a critical interface between exposure and human body, our results have implications for understanding and utilizing microbial contribution to PFAS clearance.",
+  "sampleProcessingProtocol": "The bacterial cell pellets were lysed in 100 mM Triethyl ammonium bicarbonate (TEAB) containing 0.1% RapiGest surfactant by sonication on ice (50J x5, 30% Amplitude) after denaturing by two rounds of incubation at 80 ºC for 10 min with intermittent cooling. The solubilized protein content was estimated using Pierce 660nm assay as per manufacturer's instructions. 50 µg of protein from each sample was reduced with 4 mM dithiothreitol (DTT), alkylated with 14 mM iodoacetamide (IAA), and further digested with trypsin at 1:50 protease:protein ratio for 16h at 37 ºC. The peptide content was estimated at 1:10 dilution using Pierce quantitative colorimetric assay as per manufacturer's instructions. Equal amounts of peptides from respective bacterial samples were labelled with TMT in a randomized fashion to ensure the reporter ion isotopic distribution is spread across the replicates following manufacturer's guidelines. Equal volume of the respective TMT labelled peptides were pooled together and desalted to remove unbound labels. The desalted peptides were further subjected to fractionation based on their reverse phase chromatographic properties under basic pH using an analytical HPLC. The 12 concatenated fractions collected were vacuum dried, resuspended in 0.1% TFA containing 3% acetonitrile (ACN), and taken for LC-MS/MS analysis.",
+  "dataProcessingProtocol": "Data was processed using Proteome Discoverer v3.0 using the protein databases mentioned above. The spectra identification was performed with the following parameters: MS accuracy, 10 ppm; MS/MS accuracy, 0.6 Da for spectra acquired in Ion trap mass analyser; missed cleavage, up to 2; fixed modifications, carbamidomethylation of cysteine and TMT/TMTpro on lysine and on peptide N-terminus; variable modifications, oxidation of methionine. An intensity-based rescoring of PSMs identified in SequestHT node was performed by Inferys prior to false discovery rate estimation using Percolator. Only rank 1 peptide identifications with high confidence (FDR<1%) were accepted for identification and quantification reporting. Quantification was carried out on the S/N values of reporter ions for the identified peptides that are unique to the proteins. The protein abundance was enumerated by summing the abundances of the connected peptide groups matching to respective proteins. Data normalization was carried out using the TMT channel with the highest total protein abundance as the reference channel.",
+  "projectTags": ["Biological", "Biomedical"],
+  "keywords": ["PFAS", "gut bacteria", "Bacteroides uniformis", "Escherichia coli", "bioaccumulation"],
+  "submissionType": "COMPLETE",
+  "submissionDate": "2025-03-25T00:00:00Z",
+  "publicationDate": "2025-04-28T00:00:00Z",
+  "submitters": [
+    {
+      "name": "Sandip Kumar Patel"
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "820",
+      "name": "Bacteroides uniformis"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "2",
+      "name": "Bacteria"
+    }
+  ]
+}

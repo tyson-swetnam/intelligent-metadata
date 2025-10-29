@@ -1,0 +1,25 @@
+{
+  "accession": "PXD060741",
+  "title": "Engineering controllable alteration of malonyl-CoA levels to enhance polyketide production",
+  "projectDescription": "Heterologous expression of polyketide synthase (PKS) genes in Escherichia coli has enabled the production of various valuable natural and synthetic products. However, the limited availability of malonyl-CoA (M-CoA) in E. coli remains a significant impediment to high-titer polyketide production. In this study, we address this limitation by disrupting the native M-CoA biosynthetic pathway and introducing an orthogonal pathway comprising a malonate transporter and M-CoA ligase, enabling efficient M-CoA biosynthesis under malonate supplementation. This approach significantly increases M-CoA levels, enhancing fatty acid and polyketide titers while reducing the promiscuous activity of PKSs toward undesired acyl-CoA substrates. Subsequent adaptive laboratory evolution of these strains provides insights into M-CoA regulation and identifies mutations that further boost M-CoA and polyketide production. This strategy improves E. coli as a host for polyketide biosynthesis and advances understanding of M-CoA metabolism in microbial systems.",
+  "sampleProcessingProtocol": "Protein was extracted from cell pellets and tryptic peptides were prepared by following established proteomic sample preparation protocol. Briefly, cell pellets were resuspended in Qiagen P2 Lysis Buffer to promote cell lysis. Proteins were precipitated with addition of 1 mM NaCl and 4 x vol acetone, followed by two additional washes with 80% acetone in water. The recovered protein pellet was homogenized by pipetting mixing with 100 mM ammonium bicarbonate in 20% methanol. Protein concentration was determined by the DC protein assay (BioRad, USA). Protein reduction was accomplished using 5 mM tris 2-(carboxyethyl)phosphine (TCEP) for 30 min at room temperature, and alkylation was performed with 10 mM iodoacetamide (IAM; final concentration) for 30 min at room temperature in the dark. Overnight digestion with trypsin was accomplished with a 1:50 trypsin:total protein ratio. The resulting peptide samples were analyzed on an Agilent 1290 UHPLC system coupled to a Thermo Scientific Orbitrap Exploris 480 mass spectrometer for discovery proteomics.",
+  "dataProcessingProtocol": "DIA raw data files were analyzed by an integrated software suite DIA-NN. The database used in the DIA-NN search (library-free mode) was E.coli latest Uniprot proteome FASTA sequences plus the protein sequences of heterogeous genes and common proteomic contaminants. DIA-NN determines mass tolerances automatically based on first pass analysis of the samples with automated determination of optimal mass accuracies. The retention time extraction window was determined individually for all MS runs analyzed via the automated optimization procedure implemented in DIA-NN. Protein inference was enabled, and the quantification strategy was set to Robust LC = High Accuracy. Output main DIA-NN reports were filtered with a global FDR = 0.01 on both the precursor level and protein group level.",
+  "projectTags": ["Biological"],
+  "keywords": ["Escherichia coli", "malonyl-CoA", "polyketide", "metabolic engineering", "synthetic biology"],
+  "submissionType": "COMPLETE",
+  "submissionDate": "2025-02-12T00:00:00Z",
+  "publicationDate": "2025-02-13T00:00:00Z",
+  "submitters": [
+    {
+      "name": "Christopher Petzold"
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "562",
+      "name": "Escherichia coli"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "accession": "PXD061583",
+  "title": "Selective silencing of antibiotic-tethered ribosomes as a resistance mechanism against aminoglycosides",
+  "projectDescription": "Understanding antibiotic resistance is essential for combating drug-resistant pathogens. Many bacteria horizontally acquire enzymes that modify antibiotics or their targets to prevent interaction, but when resistance emerges without such modifications, the underlying mechanisms often remain unknown. Here, we describe how mutations in the fusA gene, which encodes translation elongation factor G (EF-G), drive resistance against aminoglycoside antibiotics. fusA resistance mutations, found throughout EF-G, confer resistance without disrupting AGA binding to the ribosome. EF-G resistance variants selectively slow down translocation on aminoglycoside-bound ribosomes until the drug dissociates. This slowdown prevents antibiotic-induced incorporation of consecutive incorrect amino acids (error clusters) into proteins, preserving the proteome and membrane integrity, and limiting drug uptake. In contrast, translocation on antibiotic-free ribosomes remains sufficiently rapid to support near-normal cell growth with or without antibiotic. This previously unrecognized resistance concept—selective silencing of corrupted targets—offers new insights into antibiotic resistance mechanisms beyond traditional paradigms.",
+  "sampleProcessingProtocol": "E. coli cells (1 OD600) were lysed in 1x Laemmli sample buffer (Bio-Rad). Proteins (corresponding to 0.1 OD600 cells) were separated using 10% Criterion TGX SDS PAGE (Bio-Rad) and in-gel proteolyzed. Peptides were analyzed on a Vanquish Neo UHPLC system coupled to an Orbitrap Exploris 480 mass spectrometer (Thermo Fisher). Tryptic peptides were loaded on a PepMap Neo C18 trap column (5 µm particle size, 5 mm length, 300 µm inner diameter). Bound peptides were eluted and separation was performed on a C18 capillary column (31 cm length, 75 μm inner diameter, Reprosil-Pur 120 Å, 3 μm) at a flow rate of 300 nL/min with a acetonitrile gradient in 0.1% formic acid. Peptides eluting from the Vanquish Neo UHPLC system coupled to an Orbitrap Exploris 480 mass spectrometer were analyzed in positive mode over a 118min runtime using a 40 m/z window data-independent acqusisition (DIA) method.",
+  "dataProcessingProtocol": "DIA data were processed using Spectronaut (version 17.1.22, Biognosys) with the spectral library-free directDIA workflow. Data were searched against the E.coli (K-12, MG1655) reference proteome from Uniprot (UP000000625, download on 03.04.2023, 4,401 protein entries). Trypsin/P was set as digestion enzyme, allowing up to two missed cleavages. For directDIA data extraction, default settings provided by Biognosys were used. Protein abundance estimates from Spectronaut (PG.ProteinQuantity) were analyzed using Perseus software platform (v.1.6.15.0). Raw values were log2-transformed, and a filtering threshold was set to retain proteins observed in at least 70% of all MS runs. Missing values were replaced with random numbers drawn form a normal distribution. Significantly altered proteins were identified using an unpaired two-sample Student´s t-test (S0 = 0.5; Benjamini-Hochberg FDR = 0.05) comparing the three fusA mutants with the wt strain.",
+  "projectTags": ["Biological"],
+  "keywords": ["Escherichia coli", "antibiotic resistance", "aminoglycosides", "EF-G", "ribosome"],
+  "submissionType": "COMPLETE",
+  "submissionDate": "2025-03-07T00:00:00Z",
+  "publicationDate": "2025-08-28T00:00:00Z",
+  "submitters": [
+    {
+      "name": "Ingo Wohlgemuth"
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "562",
+      "name": "Escherichia coli"
+    }
+  ]
+}

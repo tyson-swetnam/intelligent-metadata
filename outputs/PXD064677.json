@@ -1,0 +1,25 @@
+{
+  "accession": "PXD064677",
+  "title": "Control of flagellar gene expression by the receptor-like regulator in pathogenic Escherichia coli",
+  "projectDescription": "Chemoreceptors enable bacteria to modulate their swimming behavior in accordance with the perceived environmental cues. Bacteria exhibit large diversity of stimuli sensed by their chemoreceptors, whereas the output of receptors to the chemotaxis signaling pathway that controls flagellar motor is typically highly conserved. Here, we characterize a unique chemoreceptor-like protein, Tls, which is found in the B2 phylogroup of Escherichia coli that includes many extraintestinal pathogenic (ExPEC) strains. Instead of mediating chemotactic signaling, Tls controls motility by repressing the expression of flagellar genes, and thus cell motility, apparently by sequestering the transcriptional master activator of flagellar genes, FlhDC. Furthermore, we observe that the subcellular localization of Tls, the sequestration of FlhDC, and the repression of flagellar genes and motility are all abolished during growth on porous medium, indicating that this regulation may be mechanosensitive. Deletion of tls in a uropathogenic E. coli leads to reduced attachment to the urinary tract cells, but an increased migration to and/or proliferation in the murine gut, a pathogen reservoir niche, thus implicating Tls in the regulation of motility during infection.",
+  "sampleProcessingProtocol": "For the proteome analysis, E. coli day cultures were grown in TB medium as above until OD600 of 0.6. Cells were then harvested by centrifugation (4000 r.p.m., 5 min) and washed twice with 5 ml cold PBS, and the pellets were stored at –20°C. For the MG1655 strain, 15 M IPTG was added during culture growth to induce expression of Tls. The collected samples were subsequently subjected to proteomic analysis using liquid chromatography-mass spectrometry (LC-MS). The instrumental settings have been described in detail previously for the applied data independent (DIA) and data dependent acquisition mode (DDA). In short, peptide samples were analyzed on on a Ultimate 3000 RSLC nano system connected to an Exploris 480 via a nanospray Flex ion source (all Thermo Fisher Scientific). Peptides separation was carried out at 300 nL/min with an acetonitrile gradient increasing from 6-35 % acetonitrile over 60 and 90 min, respectively. Due to new workflow implementation parts of the experiments were acquired in DDA and DIA mode on the Exploris-MS system.",
+  "dataProcessingProtocol": "DDA MS raw data was then analyzed with MaxQuant executed in standard settings. The search criteria were set as follows: full tryptic specificity was required (cleavage after lysine or arginine residues); two missed cleavages were allowed; carbamidomethylation (C) was set as fixed modification; oxidation (M), deamidation (N,Q). Analysis of DIA data was performed using the DIA-NN version 1.8. Although no reference database for E. coli S13 is available, using the uniprot protein database of a closely related E. coli UTI89 resulted in nearly full coverage of the analyzed proteome.",
+  "projectTags": ["Biological"],
+  "keywords": ["Escherichia coli", "flagellar gene", "chemoreceptor", "motility", "pathogenic"],
+  "submissionType": "COMPLETE",
+  "submissionDate": "2025-06-05T00:00:00Z",
+  "publicationDate": "2025-06-13T00:00:00Z",
+  "submitters": [
+    {
+      "name": "Timo Glatter"
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "562",
+      "name": "Escherichia coli"
+    }
+  ]
+}

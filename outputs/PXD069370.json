@@ -1,0 +1,26 @@
+{
+  "accession": "PXD069370",
+  "title": "LC-MS/MS identification of phosphorylation at both T35 and S350 on qHtL1 expressed in E. coli. and in wheat",
+  "projectDescription": "Liquid Chromatography with tandem mass spectrometry (LC-MS/MS) identification of phosphorylation at both T35 and S350 on qHtL1 expressed in E. coli. and in wheat",
+  "sampleProcessingProtocol": "In supplementary Fig. 13, we obtained the qHtL1-GST and TaCDPK13-GST fusion proteins using a prokaryotic expression system, and then purified for in vitro phosphorylation assay. The qHtL1-GST fusion protein was mixed with different amounts of TaCKPK13-GST, and phosphorylation levels of qHtL1 in each reaction were evaluated by mass spectrometry. In Supplementary Fig 14, we extracted total proteins were from non-vernalized qHtL1-OE3 wheat plants. qHtL1-HA was immunoprecipitated using an anti-HA antibody, and its phosphorylation modification sites were analyzed by LC-MS/MS. For protein digestion, first denature and reduce disulfide bonds by incubating sample with 5mM TCEP at 55°C for 30 minutes, then adding 25mM iodoacetamide and incubating in the dark at room temperature for another 30 minutes. Next, add approximate 1μg sequencing-grade trypsin at 37°C for 16 hours.",
+  "dataProcessingProtocol": "Identification and LFQ analysis was performed on Proteome Discoverer (v2.4) software, and the Sequest search engine was used. For the analysis of proteomic data, precursor mass tolerance was set to 20 ppm with a fragment mass tolerance of 0.05 Da. The enzyme used was trypsin/p, and the maximum missed cleavage was set to 2. Carbamidomethyl(C) was set as fixed modification with variable modifications of Oxidation (M), phosphorylation(S/T/Y) and Acetyl (Protein N-term) for all the software programs. The precursor and fragment mass tolerance were set as 10 ppm and 0.05Da separately. The min. and max peptide length were set as 6 and 144 separately. The rest of the parameters were set as default. For vivo sample: database Triticum_aestivum_data_XSJ_20170911.anno.AT_ID(452987 entries) was downloaded from the IWGSC, and then the protein sequences was annotated based on the protein information of Arabidopsis thaliana. For vitro sample: combination the E.COLI download from uniport ver.20230612(1098515 entries) and Triticum_aestivum_data_XSJ_20170911.anno.AT_ID was used for data processing. For LFQ analysis, Normalization Mode and Scaling Mode in Precursor Ions Quantifier were set as 'total peptide amount.' Proteins with a 'Protein false discovery rate (FDR) Confidence Combined' as 'High' and a 'Master as 'IsMasterProtein' were used for analysis; The built-in t-test (Background Based) of the Proteome Discoverer software was used for quantitation. Quantitative results with an adjusted P-value (abundance ratio adj. P-value) < 0.05 were adopted. All other parameters were set as default.",
+  "projectTags": ["Biological"],
+  "keywords": ["e.coli", "wheat", "phosphorylation", "LC-MS/MS"],
+  "doi": "10.6019/PXD069370",
+  "submissionType": "COMPLETE",
+  "submissionDate": "2025-10-13T00:00:00Z",
+  "publicationDate": "2025-10-14T00:00:00Z",
+  "submitters": [
+    {
+      "name": "DONG QI"
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "4565",
+      "name": "Triticum aestivum (wheat)"
+    }
+  ]
+}
