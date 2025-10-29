@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "pride": {
+      "command": "node",
+      "args": [
+        "/Users/tswetnam/github/pride-mcp-server/dist/index.js"
+      ],
+      "env": {
+        "PRIDE_API_TIMEOUT": "30000",
+        "PRIDE_PAGE_SIZE": "10"
+      }
+    }
+  }
+}
